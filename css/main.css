@@ -1,0 +1,175 @@
+/***** BASE STYLES *****/
+body {
+	font-family: 'Montserrat', sans-serif;;
+	color: #000000;
+}
+
+#header {
+	height: 110px;
+}
+
+#about {
+	height: 480px;
+}
+
+#menu, #reviews, #locations {
+	height: 240px;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+}
+
+.half-width {
+	width: 50%;
+	float: left;
+}
+
+.third-width {
+	width: 32%;
+	float: left;
+}
+
+/***** HEADER *****/
+header h1 {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 23px;
+	padding: 40px 0px 40px 20px;
+	margin-right: 25px;
+}
+
+nav { 
+    padding: 45px 0px 40px 20px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 23px;
+    color: #77a466;
+    margin-right: 20px;
+}
+
+/***** ABOUT *****/
+#about img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 96%;
+	border-top: 3px solid #77a466;
+	border-bottom: 3px solid #77a466;
+}
+
+#about h2 {
+	padding: 20px 0px 0px 20px;
+	font-size: 18px;
+	line-height: 23px;
+	color: #77a466;
+	text-transform: uppercase;
+}
+
+#about p {
+	padding: 20px 20px 0px 20px;
+}
+
+/***** MAIN *****/
+
+/***** MENU ****/
+#menu {
+	margin: 20px 0px 20px 20px;
+	border-top: 1px solid #dedbdc;
+	border-right: 1px solid #dedbdc;
+	border-bottom: 1px solid #dedbdc;
+}
+
+#menu h3 {
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 25 px;
+	margin: 20px 20px 0px 0px;
+}
+
+#menu ul {
+	padding: 0;
+	margin: 0;
+}
+
+#menu ul li {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 18px;
+	list-style-type: none;
+	color: #77a466;
+	margin: 25px 0px 20px 0px;
+}
+
+/***** REVIEWS *****/
+#reviews {
+	margin: 20px 0px 20px 0px;
+	border: 1px solid #dedbdc;
+}
+
+#reviews h3 {
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 25 px;
+	margin: 20px 20px 0px 20px;
+}
+
+#reviews p {
+	font-size: 16px;
+	line-height: 21px;
+	margin: 20px 20px 0px 20px;
+}
+
+/***** LOCATIONS *****/
+#locations {
+	margin: 20px 0px 20px 0px;
+	border-top: 1px solid #dedbdc;
+	border-bottom: 1px solid #dedbdc;
+}
+
+#locations h3 {
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 25 px;
+	margin: 20px 20px 0px 20px;
+}
+
+#locations p {
+	font-size: 16px;
+	line-height: 21px;
+	margin: 20px 20px 0px 20px;
+}
+
+/***** FOOTER *****/
+#footer {
+	width: 100%;
+}
+
+#footer h2 {
+	font-size: 16px
+	line-height: 23px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#footer span {
+	font-family: 'Pinyon Script', cursive;
+	font-size: 20px;
+	line-height: 23px;
+	text-transform: lowercase;
+	color: #77a466;
+}
