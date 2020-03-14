@@ -33,7 +33,7 @@ h4 {
 p {
 	font-size: 1em; /*14 px originally*/
 	line-height: 1.2em;
-    padding: 0 5%;
+   
 }
 
 
@@ -73,30 +73,25 @@ header {
 .section-two,
 .section-three {
 	width: 100%;
-	height: auto;
+	border-top: 1px solid #eee;
+	/*height: auto;
 	border-top: 1px solid #eee;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-flow: row wrap;
+	flex-flow: row wrap;*/
 }
 
 .section-one h4,
 .section-two h4,
 .section-three h4 {
 	width: 100%;
-	height: auto;
+	/*height: auto;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-flow: row wrap;*/
 }
-
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-
 
 footer {
 	height: auto;
@@ -168,11 +163,11 @@ header nav ul li a{
 }
 
 .main-title {
-	height: auto;
+	/*height: auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-flow: row wrap;
+	flex-flow: row wrap;*/
 }
 .main-title h3 {
 	color: #77a466;
@@ -222,35 +217,35 @@ footer span {
 	header h1 {
 		padding: 5% 0;
 	}
+	p {
+		padding-left: 1em;
+	}
 	.bottom-section {
 		width: 100%;
 		height: auto;
 		display: flex;
 		justify-content: center;
-		align-items: center;
+		align-items: flex-start;
 		flex-flow: row nowrap;
+		border-top: 1px solid #eee;
+		border-bottom: 1px solid #eee;
 	}
 	.section-one,
 	.section-two,
 	.section-three {
 		flex-basis: 33%;
-		height: 300px;
-		border-top: 1px solid #eee;
-		display: flex;
-		justify-content: center;
-		align-items: flex-start;
-		flex-flow: row wrap;
+		border-top: none;
 	}
 
-	.section-one h4,
+	.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
 	.section-two h4,
 	.section-three h4 {
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: flex-start;
-		flex-flow: row wrap;
-}
+		margin-left: 1em;
+	}
 }	
 
 @media (min-width: 1200px) {
@@ -291,14 +286,14 @@ footer span {
 		font-weight: 700;
 		font-size: .8em;
 		padding: 0 3%;
-}
+	}
 
 .main-title {
-	height: auto;
+	/*height: auto;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	flex-flow: row wrap;
-}
+	flex-flow: row wrap;*/
+	}
 
 }
