@@ -74,23 +74,12 @@ header {
 .section-three {
 	width: 100%;
 	border-top: 1px solid #eee;
-	/*height: auto;
-	border-top: 1px solid #eee;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;*/
 }
 
 .section-one h4,
 .section-two h4,
 .section-three h4 {
 	width: 100%;
-	/*height: auto;
-	display: flex;
-	justify-content: flex-start;
-	align-items: flex-start;
-	flex-flow: row wrap;*/
 }
 
 footer {
@@ -162,13 +151,6 @@ header nav ul li a{
 	border-bottom: 3px solid #77a466;
 }
 
-.main-title {
-	/*height: auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;*/
-}
 .main-title h3 {
 	color: #77a466;
 }
@@ -286,14 +268,6 @@ footer span {
 		font-weight: 700;
 		font-size: .8em;
 		padding: 0 3%;
-	}
-
-.main-title {
-	/*height: auto;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	flex-flow: row wrap;*/
 	}
 
 }
